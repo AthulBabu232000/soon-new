@@ -1,0 +1,114 @@
+body{
+	margin: 0 auto;
+	background-image: url("../login.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+	width:100vw;
+	overflow:hidden;
+}
+
+.contain{
+	
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 160px;
+	padding-bottom:30vh;
+	
+}
+
+.contain img{
+	
+	margin-top: -10vmin;
+}
+
+
+
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+	
+
+}
+
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 30px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+
+
+  #hide1{
+	display: none;
+  }
+
+.btn-login{
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+}
+
+/* media query bit more */
+
+@media screen and (max-width: 680px) {
+
+	body {
+		margin:0;
+		padding:0;
+		box-sizing: border-box;
+		background-image:none;
+	
+
+	  
+	}
+	.contain{
+
+		/* background-image:url('https://png.pngtree.com/png-vector/20190410/ourlarge/pngtree-realistic-cricket-equipment-such-as-batball-and-wicket-stumps-png-image_926272.jpg'); */
+		background-position:center;
+		background-repeat:no-repeat;
+		background-position-y:10px;
+		filter: blur(0px);
+	    
+		background-color:#141E30;
+	}
+
+	
+
+	input[type="text"],input[type="password"]{
+		margin-top: 30px;
+		height: 45px;
+		width: 300px;
+		font-size: 18px;
+		margin-bottom: 20px;
+		background-color: #fff;
+		padding-left: 40px;
+		margin-left:20px;
+		
+	
+	}
+
+	.form-input::before{
+		content: "\f007";
+		font-family: "FontAwesome";
+		padding-left: 07px;
+		padding-top: 26px;
+		position: absolute;
+		font-size: 35px;
+		color: 	#141E30; 
+	}
+
+  }

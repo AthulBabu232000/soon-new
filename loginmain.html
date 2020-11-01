@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Form in HTML5 and CSS3</title>
+	<link rel="stylesheet" a href="css\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+	<img src="login.jpeg"/>
+		<form method="POST" action="/login">
+			<div class="form-input">
+				<input type="text" name="text" placeholder="Enter the User Name"/>	
+			</div>
+			<div class="form-input">
+                <input type="password" name="password" placeholder="password" id="myInput"/>
+                <span class="eye" onclick="myFunction()">
+                    <i id="hide1" class="fa fa-eye"></i>
+                    <i id="hide2" class="fa fa-eye-slash"></i>
+                  </span>
+			</div>
+			<input type="submit" type="submit" value="LOGIN" class="btn-login"/>
+		</form>
+    </div>
+    <script>
+        function myFunction(){
+          var x = document.getElementById("myInput");
+          var y = document.getElementById("hide1");
+          var z = document.getElementById("hide2");
+  
+          if(x.type === 'password'){
+            x.type = "text";
+            y.style.display = "block";
+            z.style.display = "none";
+          }
+          else{
+            x.type = "password";
+            y.style.display = "none";
+            z.style.display = "block";
+          }
+        }
+      </script>
+</body>
+</html>
