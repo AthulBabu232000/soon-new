@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:400,900&display=swap");
 body, html {
  height:auto;
-  width: 100%;
-  /* overflow: hidden; */
-  background-image: url('../data-original1_f5.jpg')
   
-  margin-top: 500px;
+  /* overflow: hidden; */
+  background-image: url('../data-original1_f5.jpg');
+  
+ 
 }
 
 .center {
@@ -107,7 +107,8 @@ body, html {
   height: 3rem;
   border-radius: 4rem;
   margin-bottom: 2rem;
-  background: #EAA786;
+  background: #141E30;
+  color:white;
   -webkit-transform-origin: left;
           transform-origin: left;
   cursor: pointer;
